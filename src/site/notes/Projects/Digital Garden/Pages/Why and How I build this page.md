@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Why and How I build this page.md","permalink":"/why-and-how-i-build-this-page/","created":"2024-06-15T09:22","updated":"2024-06-15T15:03"}
+{"dg-publish":true,"dg-path":"Why and How I build this page.md","dg-permalink":"garden/why","permalink":"/garden/why/","created":"2024-06-15T09:22","updated":"2024-06-15T20:51"}
 ---
 
 I've gone through several iterations of my website over the years, but this one is unique.
