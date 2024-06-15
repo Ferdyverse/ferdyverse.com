@@ -38,6 +38,8 @@ jobs:
           host = ${{ secrets.RCLONE_CONF_SERVER }}
           user: ${{ secrets.RCLONE_CONF_USER }}
           pass: ${{ secrets.RCLONE_CONF_PASSWORD }}
+          no_check_certificate: true
+          tls: true
           concurrency: 5
         disable_base64: true
     - run: 'rclone sync dist allinkl-ftp:/'
