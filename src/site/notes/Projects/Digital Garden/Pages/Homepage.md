@@ -16,9 +16,9 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
 - [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
 - [[Projects/Digital Garden/Pages/About me\|About me]]
-- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
 - [[Projects/Digital Garden/Pages/Homepage\|Homepage]]
 
 { .block-language-dataview}

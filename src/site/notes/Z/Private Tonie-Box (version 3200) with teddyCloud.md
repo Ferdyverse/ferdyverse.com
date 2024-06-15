@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"noteIcon":"","created":"2024-06-15T13:10","updated":"2024-06-15T21:03"}
+{"dg-publish":true,"dg-path":"Tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"noteIcon":"tree","created":"2024-06-15T13:10","updated":"2024-06-15T21:52"}
 ---
 
 
