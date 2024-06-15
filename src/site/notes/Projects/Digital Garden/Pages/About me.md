@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"dg-path":"About me.md","dg-permalink":"About Me","permalink":"/About Me/","created":"2024-06-15T00:51","updated":"2024-06-15T00:57"}
+{"dg-publish":true,"dg-path":"About me.md","dg-permalink":"About Me","permalink":"/About Me/","title":"About me","created":"2024-06-15T00:51","updated":"2024-06-15T16:44"}
 ---
-
-## About me
 
 Here are some basic facts:
 
