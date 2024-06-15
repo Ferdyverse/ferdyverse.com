@@ -19,6 +19,14 @@ body {
           align-items: center;
       }
   }
+
+  .notelink {
+    img {
+        height: 16px;
+        width: auto;
+    }
+    margin-right: 8px;
+  }
   
   h1 {
     font-size: 2em !important; /* 40px/16=2.5em */
@@ -79,6 +87,7 @@ body {
         overflow-x: hidden;
         margin-right: -10px;
     }
+
     .notelink {
         border-radius: 10px;
         padding: 5px 0 5px 8px;
