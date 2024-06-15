@@ -28,3 +28,16 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run build --if-present
+
+    - name: Setup Rclone
+      uses: AnimMouse/setup-rclone@v1
+      with:
+        rclone_config: |
+          [allinkl-ftp]
+          type = ftp
+          host = ${{ secrets.RCLONE_CONF_SERVER }}
+          user: ${{ secrets.RCLONE_CONF_USER }}
+          pass: ${{ secrets.RCLONE_CONF_PASSWORD }}
+          concurrency: 5
+        disable_base64: true
+    - run: 'rclone sync dist allinkl-ftp:/'
