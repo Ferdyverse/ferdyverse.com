@@ -44,4 +44,4 @@ jobs:
           concurrency: 3
           explicit_tls = true
         disable_base64: true
-    - run: 'rclone sync dist allinkl-ftp:/ -vvv'
+    - run: 'rclone sync dist allinkl-ftp:/'
