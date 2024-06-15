@@ -41,7 +41,7 @@ jobs:
           tls = false
           no_check_certificate: true
           port = 21
-          concurrency: 5
+          concurrency: 3
           explicit_tls = true
         disable_base64: true
     - run: 'rclone sync dist allinkl-ftp:/ -vvv'
