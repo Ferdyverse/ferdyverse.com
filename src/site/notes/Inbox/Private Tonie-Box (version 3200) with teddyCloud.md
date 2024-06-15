@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"created":"2024-06-15T13:10","updated":"2024-06-15T20:53"}
+{"dg-publish":true,"dg-path":"tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"created":"2024-06-15T13:10","updated":"2024-06-15T20:55"}
 ---
 
 
-On 29.12.2023 I found an interesting video on YouTube called "[37C3 – Toniebox Reverse Engineering](https://youtu.be/DNufX-tss5M?si=SQfY1D4uLTKGrK2j)". Because both of my children have their own box, I was quite hyped to try it out. My older daughter is not using her box that often so I wanted to use it to try out the custom bootloader and the teddyCloud mentioned in the video. This post is a write-down/writeup of all the steps I did to get my version ready to run. This is not meant to be a full “how-to” on all the steps for people without a technical background.
+On 29.12.2023 I found an interesting video on YouTube called "[37C3 - Toniebox Reverse Engineering](https://youtu.be/DNufX-tss5M?si=SQfY1D4uLTKGrK2j)". Because both of my children have their own box, I was quite hyped to try it out. My older daughter is not using her box that often, so I wanted to use it to try out the custom bootloader and the teddyCloud mentioned in the video. This post is a write-down/writeup of all the steps I did to get my version ready to run. This is not meant to be a full `how-to` on all the steps for people without a technical background.
 
 ## Links / Copyright
 
