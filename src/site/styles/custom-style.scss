@@ -25,7 +25,7 @@ body {
         height: 16px;
         width: auto;
     }
-    margin-right: 8px;
+    margin-right: 10px;
   }
   
   h1 {
@@ -174,7 +174,9 @@ body {
   }
 }
 
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before {
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before,
+body.links-note-icon .internal-link[data-note-icon]::before,
+body.backlinks-note-icon .backlink[data-note-icon]::before {
   margin-right: 5px;
 }
 
