@@ -117,6 +117,10 @@ header {
   margin-bottom: 1.8em;
 }
 
+.toc-container li::before {
+  content: "" !important;
+}
+
 nav.navbar {
   top: 10px;
   right: 10px;
