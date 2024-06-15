@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"About me.md","dg-permalink":"garden/me","permalink":"/garden/me/","created":"2024-06-15T00:51","updated":"2024-06-15T20:45"}
+{"dg-publish":true,"dg-path":"garden/me.md","permalink":"/garden/me/","created":"2024-06-15T00:51","updated":"2024-06-15T20:52"}
 ---
 
 Here we go! At first, I want to tell you some basic facts about me:
