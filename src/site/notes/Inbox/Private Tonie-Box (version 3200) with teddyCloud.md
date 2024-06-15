@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"created":"2024-06-15T13:10","updated":"2024-06-15T20:55"}
+{"dg-publish":true,"dg-path":"Tinkering/toniebox.md","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"created":"2024-06-15T13:10","updated":"2024-06-15T21:03"}
 ---
 
 
@@ -22,7 +22,7 @@ Nothing of the following code, etc. shown by me, is made by me. I just want to g
 - [Python 3.12](https://apps.microsoft.com/detail/9NCVDN91XZQP)
 - [GIT client](https://git-scm.com/download/win)
 - [cc3200tool](https://github.com/toniebox-reverse-engineering/cc3200tool)
-- [Custom Bootloader](https://github.com/toniebox-reverse-engineering/hackiebox_cfw_ng/releases)→ Download the zip file
+- [Custom Bootloader](https://github.com/toniebox-reverse-engineering/hackiebox_cfw_ng/releases) ⇾ Download the zip file
 - [SerialToUsb-Adapter](https://amzn.to/3vqKh5k)
 
 ## cc3200tool installation
@@ -43,7 +43,7 @@ To open the box, put it down on solid ground (no carpet) and push it hard down. 
 
 ## Soldering
 
-Yes, for this solution with the teddyCloud you have to do some soldering or buy the adapter mentioned on one of the pages above. I did not want to wait for an adapter and the mentioned one was quite expensive, so I chose the “solder some wires onto a board” route. I am not the best solderer and the solder points are very small – but I still managed to do it. Additional information can be found in the [official wiki](https://toniebox-reverse-engineering.github.io/docs/wiki/cc3200/debug-port/).
+Yes, for this solution with the teddyCloud you have to do some soldering or buy the adapter mentioned on one of the pages above. I did not want to wait for an adapter and the mentioned one was quite expensive, so I chose the "solder some wires onto a board" route. I am not the best solderer and the solder points are very small - but I still managed to do it. Additional information can be found in the [official wiki](https://toniebox-reverse-engineering.github.io/docs/wiki/cc3200/debug-port/).
 
 ![Media/efd57af35cc3719639f15007364398c4_MD5.jpg](/img/user/Media/efd57af35cc3719639f15007364398c4_MD5.jpg)
 
