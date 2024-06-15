@@ -165,6 +165,10 @@ body {
   }
 }
 
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before {
+  margin-right: 5px;
+}
+
 .sidebar {
   .backlinks {
       flex: unset;
