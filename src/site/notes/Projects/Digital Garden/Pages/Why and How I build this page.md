@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/digital-garden/pages/why-and-how-i-build-this-page/"}
+{"dg-publish":true,"permalink":"/projects/digital-garden/pages/why-and-how-i-build-this-page/","created":"2024-06-15T09:22","updated":"2024-06-15T14:57"}
 ---
 
 I've gone through several iterations of my website over the years, but this one is unique.
