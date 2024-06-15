@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Homepage.md","permalink":"/homepage/","pinned":true,"tags":["gardenEntry"],"created":"2024-06-15T00:13","updated":"2024-06-15T17:45"}
+{"dg-publish":true,"dg-path":"Homepage.md","permalink":"/homepage/","pinned":true,"tags":["gardenEntry"],"noteIcon":"","created":"2024-06-15T00:13","updated":"2024-06-15T17:45"}
 ---
 
 
@@ -18,7 +18,7 @@ This is a great question you have. If you want to find out more about me, take a
 ### Recent changes
 - [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
 - [[Projects/Digital Garden/Pages/About me\|About me]]
-- [[Inbox/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
+- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
 - [[Projects/Digital Garden/Pages/Homepage\|Homepage]]
 
 { .block-language-dataview}
