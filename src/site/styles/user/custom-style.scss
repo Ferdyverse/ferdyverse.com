@@ -176,9 +176,15 @@ body {
   }
 }
 
+/* Code block styling */
+body > main > pre {
+  max-width: fit-content;
+  min-width: 50%;
+}
+
 /* Change content settings */
 .content {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 /* Fix spacing for comments */
