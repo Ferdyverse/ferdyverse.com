@@ -61,3 +61,6 @@ jobs:
         disable_base64: true
     - run: 'rclone sync dist allinkl-ftp:/'
 ```
+
+## Credits
+I took a lot of inspiration for my CSS-styling from [uroybd](https://github.com/uroybd) and his [digital garden](https://github.com/uroybd/topobon/tree/main). He made some really nice changes to the overall looks and due to his public code I was able to do my own "hacks" to change some things around.
