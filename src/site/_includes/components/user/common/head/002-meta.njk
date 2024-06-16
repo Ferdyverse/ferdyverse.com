@@ -1,3 +1,4 @@
+{# Add images to links in Twitter, Facebook, etc #}
 {% if metatags %}
     {% for name, content in metatags %}
         <meta name="{{ name }}" content="{{ content }}" />
@@ -21,4 +22,5 @@
     {% endif %}
 {% endif %}
 
+{# Required to show emojis! #}
 <meta charset="utf-8" />

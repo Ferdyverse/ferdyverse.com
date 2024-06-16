@@ -1,9 +1,9 @@
-body {
 
-  --note-icon-1: url(/img/your-custom.svg);
-  --note-icon-2: url(/img/tree-2.svg);
-  --note-icon-3: url(/img/tree-3.svg);
-  --note-icon-fallback: url(/img/default-note-icon.svg);
+/*  Credit to https://github.com/uroybd 
+    I copied some of the definitions here from
+    his digital garden! */
+
+body {
 
   .timestamps {
       display: flex;
@@ -134,10 +134,12 @@ body {
     margin-bottom: 1.8em;
   }
 
+  /* Remove # in front of the links */
   .toc-container li::before {
     content: "" !important;
   }
 
+  /* Move content down and add image on top */
   nav.navbar {
     top: 10px;
     right: 10px;
@@ -174,53 +176,70 @@ body {
   }
 }
 
-body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before,
-body.links-note-icon .internal-link[data-note-icon]::before,
-body.backlinks-note-icon .backlink[data-note-icon]::before {
-  margin-right: 5px;
+/* Add space in mobile view */
+@media (max-width: 1400px) {
+  .content {
+    margin-top: 100px;
+  }
 }
 
-/* Custom icons */
+/* Fix spacing for comments */
+.comments {
+  margin-top: 90px;
+}
+
+/* use emojis instead of images */
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before,
+body.filetree-note-icon .filename[data-note-icon]::before,
+body.links-note-icon .internal-link[data-note-icon]::before,
+body.backlinks-note-icon .backlink[data-note-icon]::before {
+  width: auto; /* fix predefined values */
+  height: auto; /* fix predefined values */
+  background-image: none; /* remove background-image */
+  white-space: pre; /* needed to display spaces at the contents end */
+  content: "📝 "; /* default icon */
+}
+
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="seedling"]::before,
 body.filetree-note-icon .filename[data-note-icon="seedling"]::before,
 body.links-note-icon .internal-link[data-note-icon="seedling"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="seedling"]::before {
-  background-image: url(/img/seedling.svg);
+  content: "🌱 ";
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="fern"]::before,
 body.filetree-note-icon .filename[data-note-icon="fern"]::before,
 body.links-note-icon .internal-link[data-note-icon="fern"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="fern"]::before {
-  background-image: url(/img/fern.svg);
+  content: "🌿 ";
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="incubator"]::before,
 body.filetree-note-icon .filename[data-note-icon="incubator"]::before,
 body.links-note-icon .internal-link[data-note-icon="incubator"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="incubator"]::before {
-  background-image: url(/img/incubator.svg);
+  content: "🌞 ";
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="tree"]::before,
 body.filetree-note-icon .filename[data-note-icon="tree"]::before,
 body.links-note-icon .internal-link[data-note-icon="tree"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="tree"]::before {
-  background-image: url(/img/tree.svg);
+  content: "🌲 ";
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="gaming"]::before,
 body.filetree-note-icon .filename[data-note-icon="gaming"]::before,
 body.links-note-icon .internal-link[data-note-icon="gaming"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="gaming"]::before {
-  background-image: url(/img/gaming.svg);
+  content: "🎮 ";
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="boat"]::before,
 body.filetree-note-icon .filename[data-note-icon="boat"]::before,
 body.links-note-icon .internal-link[data-note-icon="boat"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="boat"]::before {
-  background-image: url(/img/boat.svg);
+  content: "🛥️ ";
 }
 
 .sidebar {
