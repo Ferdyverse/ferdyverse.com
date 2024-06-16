@@ -176,16 +176,27 @@ body {
   }
 }
 
-/* Add space in mobile view */
-@media (max-width: 1400px) {
-  .content {
-    margin-top: 100px;
-  }
+/* Change content settings */
+.content {
+  max-width: 60%;
 }
 
 /* Fix spacing for comments */
 .comments {
-  margin-top: 90px;
+  margin-top: 50px;
+}
+
+/* Settings on  mobile view */
+@media (max-width: 1400px) {
+  .content {
+    margin-top: 100px;
+    max-width: 700px;
+  }
+
+  /* Fix spacing for comments */
+  .comments {
+    margin-top: 90px;
+  }
 }
 
 /* use emojis instead of images */
