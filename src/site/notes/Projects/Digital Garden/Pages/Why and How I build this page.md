@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Garden/why-and-how","permalink":"/garden/why-and-how/","noteIcon":"","created":"2024-06-15T09:22","updated":"2024-06-15T21:10"}
+{"dg-publish":true,"dg-path":"Garden/why-and-how","permalink":"/garden/why-and-how/","noteIcon":"","created":"2024-06-15T09:22","updated":"2024-06-16T11:01"}
 ---
 
 I've gone through several iterations of my website over the years, but this one is unique.
@@ -14,7 +14,7 @@ The current/new solution is based on [GitHub - oleeskild/obsidian-digital-garden
 As mentioned on the Homepage, I use Obsidian as my second brain. All the information I want to keep and remember are written down in my personal vault. To share some of them, I had to copy the content to WordPress or a second folder to use it with Hugo. I tried some other Obsidian plugins to share my notes, but all of them had some things I would like to change or do differently. With the current solution, I can change almost every part of this page and then publish it easily using GitHub Actions.
 ### GitHub Build Pipeline
 For publishing this site, I use a GitHub build pipeline that basically builds the static pages and pushes them to my Webspace hosted by AllInkl. I just added the rclone-part to the already existing pipeline.
-```
+```yaml
 name: Check for any build error
 
 on:
