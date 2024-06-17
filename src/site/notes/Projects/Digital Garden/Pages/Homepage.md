@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/Docker Tipps\|Docker Tipps]]
 - [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
 - [[Utility/Tag Taxonomy\|Tag Taxonomy]]
 - [[Z/Obsidian CSS-Snippets\|Obsidian CSS-Snippets]]
 - [[Z/Obsidian Plugins\|Obsidian Plugins]]
-- [[Z/Resize HDD\|Resize HDD]]
 
 { .block-language-dataview}
