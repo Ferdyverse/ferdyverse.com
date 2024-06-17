@@ -11,22 +11,24 @@ body > main > pre {
 
 /* Fix spacing for comments */
 .comments {
-  max-width: fit-content;
   margin-top: 50px;
-  min-width: 50%;
+}
+
+.giscus {
+  min-width: 70%;
+  max-width: fit-content;
+  margin: auto;
 }
 
 /* Settings on  mobile view */
 @media (max-width: 1400px) {
   .content {
-      margin-top: 100px;
-      max-width: 700px;
+    margin-top: 100px;
+    max-width: 700px;
   }
 
   /* Fix spacing for comments */
   .comments {
-      margin-top: 90px;
-      max-width: fit-content;
-      min-width: 50%;
+    margin-top: 90px;
   }
 }
