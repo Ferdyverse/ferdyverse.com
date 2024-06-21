@@ -34,6 +34,6 @@ body > main > pre {
 }
 
 /* Remove underline from links in code blocks */
-a.external-link:any-link :is(code) {
+a.external-link:any-link:has(code) {
   text-decoration-line: none;
 }
