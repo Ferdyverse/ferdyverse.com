@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-05-11T09:52","updated":"2024-06-18T09:01"}
+{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["📝/🌿"],"dgShowToc":true,"noteIcon":"fern","created":"2024-05-11T09:52","updated":"2024-06-21T16:52"}
 ---
 
 
