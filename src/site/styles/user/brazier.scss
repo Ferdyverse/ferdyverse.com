@@ -27,8 +27,13 @@ body > main > pre {
     max-width: 700px;
   }
 
-  /* Fix spacing for comments */
+/* Fix spacing for comments */
   .comments {
     margin-top: 90px;
   }
+}
+
+/* Remove underline from links in code blocks */
+a.external-link:any-link :is(code) {
+  text-decoration-line: none;
 }
