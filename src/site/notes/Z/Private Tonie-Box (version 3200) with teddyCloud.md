@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/toniebox","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"noteIcon":"tree","created":"2024-06-15T13:10","updated":"2024-06-15T21:52"}
+{"dg-publish":true,"dg-path":"Tinkering/toniebox","permalink":"/tinkering/toniebox/","tags":["📝/🌲"],"noteIcon":"tree","created":"2024-06-15T13:10","updated":"2024-06-16T09:27"}
 ---
 
 
@@ -42,6 +42,10 @@ After installing the tool you should be able to start it by typing `cc3200tool` 
 To open the box, put it down on solid ground (no carpet) and push it hard down. Then turn it to the left while pushing. You should hear a noise when it opens up.
 
 ## Soldering
+
+> [!tip] Update (22.06.2024)
+> There is a solder less version available. To check it out visit the official Forum: [https://forum.revvox.de](https://forum.revvox.de/t/0-35mm-resistor-wires-as-tag-connect-alternative-tc2050/214)
+> 
 
 Yes, for this solution with the teddyCloud you have to do some soldering or buy the adapter mentioned on one of the pages above. I did not want to wait for an adapter and the mentioned one was quite expensive, so I chose the "solder some wires onto a board" route. I am not the best solderer and the solder points are very small - but I still managed to do it. Additional information can be found in the [official wiki](https://toniebox-reverse-engineering.github.io/docs/wiki/cc3200/debug-port/).
 
