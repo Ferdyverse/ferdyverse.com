@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/Obsidian Plugins\|Obsidian Plugins]]
 - [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
 - [[Z/Docker Tipps\|Docker Tipps]]
 - [[Projects/Digital Garden/Pages/About me\|About me]]
 - [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
-- [[Utility/Tag Taxonomy\|Tag Taxonomy]]
 
 { .block-language-dataview}
