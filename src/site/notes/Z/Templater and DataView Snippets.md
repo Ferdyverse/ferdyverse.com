@@ -1,17 +1,17 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-06-28 21:35"}
+{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-06-28 21:43"}
 ---
 
 Here are some Templaterand DataView-Snippets I use in Obsidian.
 ## Sources
-- [reddit](https://www.reddit.com/r/ObsidianMD/](reddit)
+- [reddit](https://www.reddit.com/r/ObsidianMD/)
 - [Zach Young](https://zachyoung.dev/posts/templater-snippets/)
 
 ## Snippets
 The Snippets are not sorted or in any particular order. Some of them are written by my self, others are copied over.
 ### Daily notes block that only shows on certain days of the week
 The following daily notes template has two blocks. The first block will only show on daily notes that land on a Monday. The second block will show on every daily note.
- ```
+ ```js
 <%* if (tp.date.now("dddd", 0, tp.file.title, "YYYY-MM-DD") === "Monday") { %>
 Block that only shows on Mondays
 <%* } %>
@@ -21,7 +21,7 @@ Block that shows every day
 ### Daily note links to yesterday and tomorrow
 We can pass in a format, offset, reference, and reference format to [tp.date.now](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/date-module.html#tpdatenowformat-string--yyyy-mm-dd-offset-numberstring-reference-string-reference_format-string) to create links to yesterday and tomorrow relative to the active daily note, instead of being relative to the actual current date.
 
-```
+```js
 [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|yesterday]]
 
 [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|tomorrow]]
@@ -30,7 +30,7 @@ We can pass in a format, offset, reference, and reference format to [tp.date.no
 ### Escaping frontmatter in a template
 If you don’t want your frontmatter in your templates to be parsed by Obsidian or any Obsidian plugins (like Dataview), then you can escape your frontmatter by wrapping the starting and ending `---` with Templater tags to escape it.
 
-```
+```js
 <% "---" %>
 date: <% tp.date.now() %>
 key: value that is not frontmatter because the --- is escaped
@@ -39,7 +39,7 @@ key: value that is not frontmatter because the --- is escaped
 ```
 
 ### Get result from Modal Forms
-```
+```js
 <%*
 const values = {
     name: tp.file.title,
@@ -58,7 +58,7 @@ let personPartner = result.get("partner")
 ```
 
 ### Embed YouTube video
-```
+```js
 <%*
 const url = await tp.system.clipboard()
 const response = await fetch(`https://youtube.com/oembed?url=${url}&format=json`)
@@ -81,7 +81,7 @@ const m = regex.exec(url)
 ```
 
 ### Link to Parent with kids
-```
+```js
 <%*
 const result = await tp.user.openForm('add_family');
 
