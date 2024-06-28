@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-06-28 21:43"}
+{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-06-28 22:30"}
 ---
 
 Here are some Templaterand DataView-Snippets I use in Obsidian.
@@ -22,9 +22,9 @@ Block that shows every day
 We can pass in a format, offset, reference, and reference format to [tp.date.now](https://silentvoid13.github.io/Templater/internal-functions/internal-modules/date-module.html#tpdatenowformat-string--yyyy-mm-dd-offset-numberstring-reference-string-reference_format-string) to create links to yesterday and tomorrow relative to the active daily note, instead of being relative to the actual current date.
 
 ```js
-[[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|yesterday]]
+[[ <% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|yesterday ]]
 
-[[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|tomorrow]]
+[[ <% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|tomorrow ]]
 ```
 
 ### Escaping frontmatter in a template
