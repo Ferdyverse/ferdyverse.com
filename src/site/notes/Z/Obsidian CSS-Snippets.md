@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23 17:43","updated":"2024-06-28 21:26"}
+{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23 17:43","updated":"2024-06-28 21:34"}
 ---
 
 ## Plugin: Style Settings
