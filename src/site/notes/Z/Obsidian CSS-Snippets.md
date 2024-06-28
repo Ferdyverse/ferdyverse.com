@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23T17:43","updated":"2024-06-15T22:58"}
+{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23 17:43","updated":"2024-06-28 21:26"}
 ---
 
 ## Plugin: Style Settings
@@ -158,6 +158,31 @@ Here is a snipped to create icons in your sidebar in front of some notes:
 .nav-folder-title[data-path="People"] .nav-folder-title-content::before { content: "👥 "; font-size: 1.3em; }
 ```
 
-For more complex definitions, I recommend the combination of `Supercharged Links` and `Style Settings`. 
+For more complex definitions, I recommend the combination of `Supercharged Links` and `Style Settings`.
+## Available CSS-Classes
+This list is for me, so I do not forget about the classes I have available in my vault. Some of them are from the minimal-theme
+
+| CSS-Class                               | Function                                            |
+| --------------------------------------- | --------------------------------------------------- |
+| `col-alt`                               | Add striped background to alternating table columns |
+| `col-lines`                             | Add borders between table columns                   |
+| `dashboard`                             | Dashboard styling for the home view                 |
+| `dv-equal-columns`                      | DataView Table Columns are all the same size        |
+| `img-grid`                              | Activate image grids                                |
+| `no-title`                              | Hides the title/headline                            |
+| `row-alt`                               | Add striped background to alternating table rows    |
+| `row-lines`                             | Add borders between table rows                      |
+| `show_properties`                       | Unhide the properties view in reading mode          |
+| `table-100`, `img-100`, `iframe-100`    | Fill 100% of the pane width                         |
+| `table-lines`                           | Add borders around all table cells                  |
+| `table-max`, `img-max`, `iframe-max`    | Fill the max line width (default 88%)               |
+| `table-nowrap`                          | Disable line wrapping in table cells                |
+| `table-numbers`                         | Add row numbers to tables                           |
+| `table-small`                           | Use small font size in tables                       |
+| `table-tabular`                         | Use tabular figures in tables                       |
+| `table-tiny`                            | Use tiny font size in tables                        |
+| `table-wide`, `img-wide`, `iframe-wide` | Fill the wide line width                            |
+| `table-wrap`                            | Force line wrapping in table cells                  |
 ## Links
 You can find all the mentioned plugins here: [[Z/Obsidian Plugins\|Obsidian Plugins]].
+Some of the CSS changes are from [here](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets)
