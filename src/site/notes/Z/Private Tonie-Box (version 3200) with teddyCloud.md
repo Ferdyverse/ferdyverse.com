@@ -49,17 +49,17 @@ To open the box, put it down on solid ground (no carpet) and push it hard down. 
 
 Yes, for this solution with the teddyCloud you have to do some soldering or buy the adapter mentioned on one of the pages above. I did not want to wait for an adapter and the mentioned one was quite expensive, so I chose the "solder some wires onto a board" route. I am not the best solderer and the solder points are very small - but I still managed to do it. Additional information can be found in the [official wiki](https://toniebox-reverse-engineering.github.io/docs/wiki/cc3200/debug-port/).
 
-![Media/efd57af35cc3719639f15007364398c4_MD5.jpg](/img/user/Media/efd57af35cc3719639f15007364398c4_MD5.jpg)
+![IMG-20240701072236453.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072236453.jpg)
 
-![Media/0794054e5ce8d5a6a576b0938d7171b2_MD5.jpg](/img/user/Media/0794054e5ce8d5a6a576b0938d7171b2_MD5.jpg)
+![IMG-20240701072236628.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072236628.jpg)
 
 Pin 9 is connectet to Pin 3
 
-![Media/e09e71a2b8e0dfeef2dbf4699e4b0f91_MD5.jpg](/img/user/Media/e09e71a2b8e0dfeef2dbf4699e4b0f91_MD5.jpg)
+![IMG-20240701072236781.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072236781.jpg)
 
 TX and RX are swapped on the flasher
 
-![Media/dfe4eb52dd00f033bb6353ab2ed53dfa_MD5.jpg](/img/user/Media/dfe4eb52dd00f033bb6353ab2ed53dfa_MD5.jpg)
+![IMG-20240701072236936.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072236936.jpg)
 
 Hot glue to hold everything in place
 
@@ -153,9 +153,9 @@ cc3200tool -p COM4 write_file ca.der /cert/c2.der
 
 You must remove the glue/gum that is in front of the SD-card slot by carefully pulling it off. Then you can push the metal thing forward and open up the cardholder.
 
-![Media/fd51c4beeb0be4980ddac8209dc850c1_MD5.jpg](/img/user/Media/fd51c4beeb0be4980ddac8209dc850c1_MD5.jpg)
+![IMG-20240701072237130.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072237130.jpg)
 
-![Media/78236e450659679f5cc449776c426a2e_MD5.jpg](/img/user/Media/78236e450659679f5cc449776c426a2e_MD5.jpg)
+![IMG-20240701072237311.jpg](/img/user/Media/Z/Private%20Tonie-Box%20(version%203200)%20with%20teddyCloud/IMG-20240701072237311.jpg)
 
 After you get the SD card you can copy the `revvox`-folder that is within the bootloader folder onto your card. Then I made the following changes to the `ngCfg.json` file to get the teddyCloud connection setup:
 

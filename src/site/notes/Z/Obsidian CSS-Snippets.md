@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23 17:43","updated":"2024-06-28 21:34"}
+{"dg-publish":true,"dg-path":"Notes/obsidian_css_snippets","permalink":"/notes/obsidian-css-snippets/","tags":["obsidian","css","📝/🌿"],"noteIcon":"fern","created":"2024-04-23 17:43","updated":"2024-07-06 15:45"}
 ---
 
 ## Plugin: Style Settings
@@ -166,6 +166,7 @@ This list is for me, so I do not forget about the classes I have available in my
 | --------------------------------------- | --------------------------------------------------- |
 | `col-alt`                               | Add striped background to alternating table columns |
 | `col-lines`                             | Add borders between table columns                   |
+| `daily`                                 | Changes for Daily notes                             |
 | `dashboard`                             | Dashboard styling for the home view                 |
 | `dv-equal-columns`                      | DataView Table Columns are all the same size        |
 | `img-grid`                              | Activate image grids                                |

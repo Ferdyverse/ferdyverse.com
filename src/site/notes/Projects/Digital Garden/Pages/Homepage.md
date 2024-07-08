@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
-- [[Z/Templater and DataView Snippets\|Templater and DataView Snippets]]
 - [[Z/Obsidian CSS-Snippets\|Obsidian CSS-Snippets]]
+- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
+- [[Z/Templater and DataView Snippets\|Templater and DataView Snippets]]
 - [[Projects/Digital Garden/Pages/About me\|About me]]
 - [[Z/Obsidian Plugins\|Obsidian Plugins]]
-- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
 
 { .block-language-dataview}
