@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["📝/🌿"],"dgShowToc":true,"noteIcon":"fern","created":"2024-05-11T09:52","updated":"2024-06-21T16:52"}
+{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["📝/🌿"],"dgShowToc":true,"noteIcon":"fern","created":"2024-05-11 09:52","updated":"2024-07-09 11:08"}
 ---
 
 
@@ -35,7 +35,7 @@ Another useful option is `docker run --name yourname docker_image` because whe
 - [`docker kill`](https://docs.docker.com/engine/reference/commandline/kill) sends a SIGKILL to a running container.
 - [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach) will connect to a running container.
 
-If you want to detach from a running container, use `Ctrl + p, Ctrl + q`. 
+If you want to detach from a running container, use `Ctrl + p, Ctrl + q`.
 
 #### Capabilities
 Linux capabilities can be set by using `cap-add` and `cap-drop`. See [https://docs.docker.com/engine/reference/run/#/runtime-privilege-and-linux-capabilities](https://docs.docker.com/engine/reference/run/#/runtime-privilege-and-linux-capabilities) for details. This should be used for greater security.
@@ -109,12 +109,12 @@ docker export my_container | gzip > my_container.tar.gz
 ```
 
 #### Difference between loading a saved image and importing an exported container as an image
-Loading an image using the `load` command creates a new image including its history.  
+Loading an image using the `load` command creates a new image including its history.
 
 Importing a container as an image using the `import` command creates a new image excluding the history which results in a smaller image size compared to loading an image.
 
 ## Volumes
-Docker volumes are [free-floating filesystems](https://docs.docker.com/engine/tutorials/dockervolumes/). They don't have to be connected to a particular container. 
+Docker volumes are [free-floating filesystems](https://docs.docker.com/engine/tutorials/dockervolumes/). They don't have to be connected to a particular container.
 
 ### Lifecycle
 - [`docker volume create`](https://docs.docker.com/engine/reference/commandline/volume_create/)
