@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Garden/why-and-how","permalink":"/garden/why-and-how/","noteIcon":"","created":"2024-06-15T09:22","updated":"2024-06-16T22:30"}
+{"dg-publish":true,"dg-path":"Garden/why-and-how","permalink":"/garden/why-and-how/","noteIcon":"","created":"2024-06-15 09:22","updated":"2024-07-09 08:32"}
 ---
 
 I've gone through several iterations of my website over the years, but this one is unique.
