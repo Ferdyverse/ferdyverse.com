@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-04 22:45"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-04 22:56"}
 ---
 
 Recently I did watch [JvPeeks](https://www.twitch.tv/jvpeek?lang=de) Stream on Twitch. If you donate 300 Bits to him, there is a chance to release some soap bubbles. For this he uses a soap bubble machine which is controlled by an ESP. So I decided to built my own version of such a litte device. I ordered/bought the following parts:
@@ -17,6 +17,8 @@ Inside there is a lot of space to add my planned additions.
 My plan is to add the D1 Mini with the L298N-Board to control the motor and in addition I want to be able to control the speed. After that I may add some LEDs inside its eyebrows - that should be doable.
 
 After a bit of planning I did decide to remove the inlay of the battery container to be able to fit my own electronics there and maintain them if needed. So I only have to remove one screw to be able to reach my electronics.
+
+## Building the "Upgrade"
 
 ### Adding the components
 I placed one of the USB-C connectors in the back of the figure.
@@ -65,5 +67,5 @@ fan:
 ```
 
 ## Problems
-#### Power connection issue
+### Power connection issue
 Currently, I have the following problem: When I connect the ESP and the Power separate everything works fine. The moment I connect both to the same input, everything stops working. I think it has something to do with the connector I am using.
