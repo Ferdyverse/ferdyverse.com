@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 20:53"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 21:08"}
 ---
 
 > [!warning] Current state
 > This project is not finished jet. I will update the page on a regular basis
 
-Recently I did watch [JvPeeks](https://www.twitch.tv/jvpeek?lang=de) Stream on Twitch. If you donate 300 Bits to him, there is a chance to release some soap bubbles. For this he uses a soap bubble machine which is controlled by an ESP. So I decided to built my own version of such a litte device. I ordered/bought the following parts:
+Recently, I watched [JvPeek's stream on Twitch](https://www.twitch.tv/jvpeek?lang=de). During the stream, I noticed that when viewers donate 300 Bits, there's a chance to trigger a soap bubble machine, which is controlled by an ESP. Inspired by this, I decided to build my own version of this device. To get started, I ordered the following parts:
 
 - [Bluey Bubble Machine](https://www.action.com/de-de/p/3013160/seifenblasenmaschine/)
 - [USB-C Connectors](https://amzn.to/3ynJVhV)
@@ -14,26 +14,26 @@ Recently I did watch [JvPeeks](https://www.twitch.tv/jvpeek?lang=de) Stream on T
 
 ## The idea
 
-Inside there is a lot of space to add my planned additions.
+Inside the machine, there is a lot of space for my planned additions.
 ![IMG-20240804224523048.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523048.png)
 
-My plan is to add the D1 Mini with the L298N-Board to control the motor and in addition I want to be able to control the speed. After that I may add some LEDs inside its eyebrows - that should be doable.
+My plan is to add a D1 Mini with an L298N board to control the motor. Additionally, I want to be able to control the speed. Later on, I might add some LEDs to its eyebrows, which should be doable.
 
-After a bit of planning I did decide to remove the inlay of the battery container to be able to fit my own electronics there and maintain them if needed. So I only have to remove one screw to be able to reach my electronics.
+After a bit of planning, I decided to remove the inlay of the battery container to fit my own electronics there and maintain them if needed. This way, I only have to remove one screw to access my electronics.
 
 ## Building the "Upgrade"
 
 ### Adding the components
 I placed one of the USB-C connectors in the back of the figure.
 ![IMG-20240804224523521.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523521.png)
-After trying around for a while I discovered, that the USB-Connector had no control circuit inside. So when I did request some power it basically stopped working. I ordered a new board on Amazon and cut the cables on this one …
+After experimenting for a while, I discovered that the USB-C connector lacked a control circuit inside. When I requested power, it essentially stopped working. So, I ordered a new board from Amazon and cut the cables on this one.
 
-After fixing the power issue I manged to fit everything inside the space behind the battery case. I simply placed some cardboard inside the case and used hot glue to keep the components in place.
+After fixing the power issue, I managed to fit everything inside the space behind the battery case. I placed some cardboard inside the case and used hot glue to secure the components in place.
 
 ### ESPHome Code
-To control the motor I use ESPHome which is part of Home Assistant. So I am able to use automation's and events from inside my home to trigger the machine.
+To control the motor, I use ESPHome, which is integrated with Home Assistant. This allows me to use automations and events from within my home to trigger the machine.
 
-I use the builtin [fan component](https://esphome.io/components/fan/) to be able to control the speed in Home Assistant.
+I use the built-in [fan component](https://esphome.io/components/fan/) to control the speed in Home Assistant.
 
 ```yaml
 esphome:
@@ -71,7 +71,3 @@ fan:
    on_turn_off:
     - logger.log: 'Motor 1: off
 ```
-
-## Problems
-### Power connection issue
-Currently, I have the following problem: When I connect the ESP and the Power separate everything works fine. The moment I connect both to the same input, everything stops working. I think it has something to do with the connector I am using.
