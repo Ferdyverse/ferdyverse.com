@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-04 22:56"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 18:20"}
 ---
+
+> [!warning] Current state
+> This project is not finished jet. I will update the page on a regular basis
 
 Recently I did watch [JvPeeks](https://www.twitch.tv/jvpeek?lang=de) Stream on Twitch. If you donate 300 Bits to him, there is a chance to release some soap bubbles. For this he uses a soap bubble machine which is controlled by an ESP. So I decided to built my own version of such a litte device. I ordered/bought the following parts:
 
@@ -23,6 +26,9 @@ After a bit of planning I did decide to remove the inlay of the battery containe
 ### Adding the components
 I placed one of the USB-C connectors in the back of the figure.
 ![IMG-20240804224523521.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523521.png)
+After trying around for a while I discovered, that the USB-Connector had no control circuit inside. So when I did request some power it basically stopped working. I ordered a new board on Amazon and cut the cables on this one …
+
+After fixing the power issue I manged to fit everything inside the space behind the battery case. Now it is working fine
 
 ### ESPHome Code
 To control the motor I use ESPHome which is part of Home Assistant. So I am able to use automation's and events from inside my home to trigger the machine.
