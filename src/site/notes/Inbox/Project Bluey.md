@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 18:20"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 20:53"}
 ---
 
 > [!warning] Current state
@@ -28,7 +28,7 @@ I placed one of the USB-C connectors in the back of the figure.
 ![IMG-20240804224523521.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523521.png)
 After trying around for a while I discovered, that the USB-Connector had no control circuit inside. So when I did request some power it basically stopped working. I ordered a new board on Amazon and cut the cables on this one …
 
-After fixing the power issue I manged to fit everything inside the space behind the battery case. Now it is working fine
+After fixing the power issue I manged to fit everything inside the space behind the battery case. I simply placed some cardboard inside the case and used hot glue to keep the components in place.
 
 ### ESPHome Code
 To control the motor I use ESPHome which is part of Home Assistant. So I am able to use automation's and events from inside my home to trigger the machine.
