@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 22:06"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌱️"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-05 22:32"}
 ---
 
 Recently, I watched [JvPeek's stream on Twitch](https://www.twitch.tv/jvpeek?lang=de). During the stream, I noticed that when viewers donate 300 Bits, there's a chance to trigger a soap bubble machine, which is controlled by an ESP. Inspired by this, I decided to build my own version of this device. To get started, I ordered the following parts:
@@ -13,7 +13,7 @@ Recently, I watched [JvPeek's stream on Twitch](https://www.twitch.tv/jvpeek?lan
 ## The idea
 
 Inside the machine, there is a lot of space for my planned additions.
-![IMG-20240804224523048.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523048.png)
+![IMG-20240804224523048.png|center|500](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523048.png)
 
 My plan is to add a D1 Mini with an L298N board to control the motor. Additionally, I want to be able to control the speed. Later on, I might add some LEDs to its eyebrows, which should be doable.
 
@@ -23,12 +23,12 @@ After a bit of planning, I decided to remove the inlay of the battery container 
 
 ### Adding the components
 I placed one of the USB-C connectors in the back of the figure.
-![IMG-20240804224523521.png|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523521.png)
+![IMG-20240804224523521.png|center|500](/img/user/Media/Inbox/Project%20Bluey/IMG-20240804224523521.png)
 After experimenting for a while, I discovered that the USB-C connector lacked a control circuit inside. When I requested power, it essentially stopped working. So, I ordered a new board from Amazon and cut the cables on this one.
 
 After fixing the power issue, I managed to fit everything inside the space behind the battery case. I placed some cardboard inside the case and used hot glue to secure the components in place.
 
-![IMG-20240805220430077.jpg|center|300](/img/user/Media/Inbox/Project%20Bluey/IMG-20240805220430077.jpg)
+![IMG-20240805220430077.jpg|center|500](/img/user/Media/Inbox/Project%20Bluey/IMG-20240805220430077.jpg)
 
 ### ESPHome Code
 To control the motor, I use ESPHome, which is integrated with Home Assistant. This allows me to use automations and events from within my home to trigger the machine.
