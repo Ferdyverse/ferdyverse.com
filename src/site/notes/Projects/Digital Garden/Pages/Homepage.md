@@ -16,7 +16,7 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
-- [[Inbox/Project Bluey\|Project Bluey]]
+- [[Z/Project Bluey\|Project Bluey]]
 - [[Z/Meshtastic\|Meshtastic]]
 - [[Z/Docker Tipps\|Docker Tipps]]
 - [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
