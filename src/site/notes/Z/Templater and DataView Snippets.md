@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-06-29 07:50"}
+{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-09-08 22:27"}
 ---
 
 Here are some Templaterand DataView-Snippets I use in Obsidian.
@@ -55,6 +55,11 @@ let personMail = result.get("email")
 let personCompany = result.get("company")
 let personPartner = result.get("partner")
 -%>
+```
+ Here is the required snippet. Save as `openForm.js` in your templater snippets folder.
+```js
+const modalForm = app.plugins.plugins.modalforms.api;
+module.exports = (formName, options) => modalForm.openForm(formName, options);
 ```
 
 ### Embed YouTube video

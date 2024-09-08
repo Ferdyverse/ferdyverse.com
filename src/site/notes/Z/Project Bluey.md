@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-16 23:07"}
+{"dg-publish":true,"dg-path":"Tinkering/project_bluey","permalink":"/tinkering/project-bluey/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-07-30 21:42","updated":"2024-08-17 14:10"}
 ---
 
 Recently, I watched [JvPeek's stream on Twitch](https://www.twitch.tv/jvpeek?lang=de). During the stream, I noticed that when viewers donate 300 Bits, there's a chance to trigger a soap bubble machine, which is controlled by an ESP. Inspired by this, I decided to build my own version of this device. To get started, I ordered the following parts:
