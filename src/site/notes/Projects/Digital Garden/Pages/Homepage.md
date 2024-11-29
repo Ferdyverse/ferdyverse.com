@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
+- [[Z/How to git\|How to git]]
 - [[Z/Templater and DataView Snippets\|Templater and DataView Snippets]]
 - [[Z/Project Bluey\|Project Bluey]]
 - [[Z/Meshtastic\|Meshtastic]]
-- [[Z/Docker Tipps\|Docker Tipps]]
-- [[Projects/Digital Garden/Pages/Why and How I build this page\|Why and How I build this page]]
 
 { .block-language-dataview}
