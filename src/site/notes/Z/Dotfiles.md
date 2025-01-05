@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["📝/🌿"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 14:44"}
+{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["📝/🌿"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 16:41"}
 ---
 
 ## What are "dotfiles"?
@@ -26,9 +26,7 @@ if $FEDORA; then
 fi
 
 if $ARCH; then
-    if ! is_package_installed "lazygit"; then
-        install_package lazygit
-    fi
+    is_package_installed "lazygit" || install_package lazygit
 fi
 ```
 
