@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/resize-hdd","permalink":"/how-to/resize-hdd/","tags":["📝/🌲"],"noteIcon":"tree","created":"2023-02-16T14:28","updated":"2024-06-15T22:37"}
+{"dg-publish":true,"dg-path":"HowTo/resize-hdd","permalink":"/how-to/resize-hdd/","tags":["📝/🌲"],"noteIcon":"tree","created":"2023-02-16 14:28","updated":"2024-12-12 09:19"}
 ---
 
 ## Show disc type
@@ -66,7 +66,7 @@ sudo xfs_growfs /dev/sdb1
 
 ## Known errors
 
-### GPT PMBR size mismatch...
+### GPT PMBR size mismatch…
 ```shell
 # Fix signature with
 sudo parted -l

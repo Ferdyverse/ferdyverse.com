@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Homepage.md","permalink":"/homepage/","pinned":true,"tags":["gardenEntry"],"noteIcon":"","created":"2024-06-15 00:13","updated":"2024-07-08 20:28"}
+{"dg-publish":true,"dg-path":"Homepage.md","permalink":"/homepage/","pinned":true,"tags":["gardenEntry"],"noteIcon":"","created":"2024-06-15 00:13","updated":"2025-01-05 11:27"}
 ---
 
 
@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Inbox/Dotfiles\|Dotfiles]]
+- [[Projects/Digital Garden/Pages/Homepage\|Homepage]]
+- [[Z/Resize HDD\|Resize HDD]]
 - [[Z/Obsidian Plugins\|Obsidian Plugins]]
 - [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
-- [[Z/How to git\|How to git]]
-- [[Z/Templater and DataView Snippets\|Templater and DataView Snippets]]
-- [[Z/Project Bluey\|Project Bluey]]
 
 { .block-language-dataview}
