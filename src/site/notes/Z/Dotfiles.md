@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["📝/🌿"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 13:36"}
+{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["📝/🌿"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 14:44"}
 ---
 
 ## What are "dotfiles"?
@@ -34,4 +34,4 @@ fi
 
 Whenever I add something new to the files, I try to make sure it’ll work on **any** supported distro, so no one gets left out. And hey, if you try running this on your system and it works… you’re welcome. If it doesn't, well… tell me about it or make a PR :)
 
--> This post is not done yet ;)
+If you want to know more about my dotfiles setup - just ask me and I will try to show/explain you what you have to do, to setup your own dotfiles.
