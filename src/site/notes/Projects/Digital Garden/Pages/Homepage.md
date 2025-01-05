@@ -16,7 +16,7 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
-- [[Inbox/Dotfiles\|Dotfiles]]
+- [[Z/Dotfiles\|Dotfiles]]
 - [[Projects/Digital Garden/Pages/Homepage\|Homepage]]
 - [[Z/Resize HDD\|Resize HDD]]
 - [[Z/Obsidian Plugins\|Obsidian Plugins]]
