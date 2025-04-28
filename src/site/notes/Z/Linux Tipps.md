@@ -83,9 +83,9 @@ systemctl restart networking
 
 ```shell
 # Evoli
-export AMT_HOST=192.168.1.14 export AMT_PASSWORD=Ollemarac215! export VNC_PASSWORD=ferdy215
+export AMT_HOST=192.168.1.14 export AMT_PASSWORD=<PASSWORD> export VNC_PASSWORD=<PASSWORD>
 # Pikachu
-export AMT_HOST=192.168.1.11 export AMT_PASSWORD=Ollemarac215! export VNC_PASSWORD=ferdy215
+export AMT_HOST=192.168.1.11 export AMT_PASSWORD=<PASSWORD> export VNC_PASSWORD=<PASSWORD>
 
 # View settings
 docker run --rm -it derekgottlieb/wsmancli wsman get http://intel.com/wbem/wscim/1/ips-schema/1/IPS_KVMRedirectionSettingData -h ${AMT_HOST} -P 16992 -u admin -p ${AMT_PASSWORD}
