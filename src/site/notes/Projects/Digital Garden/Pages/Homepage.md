@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/HomeLab Setup\|HomeLab Setup]]
 - [[Z/Linux Tipps\|Linux Tipps]]
 - [[Z/Dotfiles\|Dotfiles]]
 - [[Projects/Digital Garden/Pages/Homepage\|Homepage]]
 - [[Z/Resize HDD\|Resize HDD]]
-- [[Z/Obsidian Plugins\|Obsidian Plugins]]
 
 { .block-language-dataview}
