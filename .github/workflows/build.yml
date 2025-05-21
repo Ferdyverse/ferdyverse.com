@@ -4,6 +4,8 @@
 name: Check for any build error
 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
