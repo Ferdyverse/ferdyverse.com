@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["📝/🌿"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 16:41"}
+{"dg-publish":true,"dg-path":"Notes/dotfiles","permalink":"/notes/dotfiles/","tags":["notes/fern"],"noteIcon":"fern","created":"2025-01-05 11:33","updated":"2025-01-05 16:41"}
 ---
 
 ## What are "dotfiles"?

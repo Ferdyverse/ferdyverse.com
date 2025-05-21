@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-09-08 22:27"}
+{"dg-publish":true,"dg-path":"Notes/templater_and_dataview_snippets","permalink":"/notes/templater-and-dataview-snippets/","tags":["notes/fern"],"noteIcon":"fern","created":"2024-06-28 09:17","updated":"2024-09-08 22:27"}
 ---
 
 Here are some Templaterand DataView-Snippets I use in Obsidian.

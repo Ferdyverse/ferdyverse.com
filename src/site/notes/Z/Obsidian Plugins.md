@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/obsidian_plugins","permalink":"/notes/obsidian-plugins/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-05-28 15:27","updated":"2024-11-29 22:46"}
+{"dg-publish":true,"dg-path":"Notes/obsidian_plugins","permalink":"/notes/obsidian-plugins/","tags":["notes/fern"],"noteIcon":"fern","created":"2024-05-28 15:27","updated":"2024-11-29 22:46"}
 ---
 
 Here you can find the current list of plugins I use in Obsidian. This list is created with the plugin: `Share my plugin list`. You should be able to click on the ⬇️ to install the plugin into your Obsidian instance.

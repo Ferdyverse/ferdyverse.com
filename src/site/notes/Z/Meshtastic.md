@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tinkering/meshtastic","permalink":"/tinkering/meshtastic/","tags":["📝/🌿"],"noteIcon":"fern","created":"2024-07-15 10:46","updated":"2024-07-15 13:06"}
+{"dg-publish":true,"dg-path":"Tinkering/meshtastic","permalink":"/tinkering/meshtastic/","tags":["notes/fern"],"noteIcon":"fern","created":"2024-07-15 10:46","updated":"2024-07-15 13:06"}
 ---
 
 ## What is Meshtastic?

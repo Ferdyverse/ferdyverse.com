@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["📝/🌿"],"noteIcon":"fern"}
+{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["notes/fern"],"noteIcon":"fern"}
 ---
 
 ## Basics

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/git","permalink":"/how-to/git/","tags":["git","📝/🌲"],"dgShowToc":true,"noteIcon":"tree","created":"2022-11-11 11:18","updated":"2024-11-29 22:26"}
+{"dg-publish":true,"dg-path":"HowTo/git","permalink":"/how-to/git/","tags":["git","notes/evergreen"],"dgShowToc":true,"noteIcon":"tree","created":"2022-11-11 11:18","updated":"2024-11-29 22:26"}
 ---
 
 ## Defining a commit Message Convention
