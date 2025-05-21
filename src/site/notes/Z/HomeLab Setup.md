@@ -1,10 +1,78 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["notes/fern"],"noteIcon":"fern"}
+{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["notes/fern"],"noteIcon":"fern","updated":"2025-05-21 21:46"}
 ---
 
 ## Basics
 
 Maintaining a HomeLab can be a rewarding, but time‑consuming hobby - especially once the number of services, containers and virtual machines starts to grow. Early on I found myself repeating the same manual setup steps on every new host and constantly tweaking configuration files directly on production machines. That’s when I decided to embrace Infrastructure as Code (IaC) and let Ansible handle the heavy lifting for me.
+
+Here is a image that should explain the basic setup for my HomeLab:
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+<div class="markdown-embed-title">
+
+# 800
+
+</div>
+
+
+
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
+
+# Excalidraw Data
+
+## Text Elements
+UDM | Dream Machine 
+Fritz! Box 
+Caddy as Reverse-Proxy 
+Proxmox Cluster 
+Docker Container 
+Linux Container
+LXC 
+Forgejo 
+Home Assistant 
+Response 
+Request 
+DNS 1
+Adguard Home 
+DNS 2
+Adguard Home 
+Internal
+Clients 
+Internal Request 
+External Request 
+Internal Response 
+Applications 
+Request 
+External
+Client 
+Request 
+Response 
+## Embedded Files
+b861d05f55c489cb9f681938d8001df8ee362fcf: [[fritz.png]]
+
+13efb430bc69d3ff7098aa0fcd1bd8722fec435a: [[unify.png]]
+
+ce9a0255db39eb4d80329358f7a752b405f14bb8: [[caddy.png]]
+
+9362f516c278987d3e2eca82cd4ce03faaec5af5: [[proxmox.png]]
+
+b5e6aaf3150f1a2e710f9c944ea7ba453fc328aa: [[docker.png]]
+
+5e12601d2fc8387bc9ca3da4598412de76209af4: [[linux-container.png]]
+
+c458177597f54d89eb102ab181ef1487d3dbf6cf: [[forgejo.png]]
+
+e4e1eec3cc132238609e813a8f2847362658e024: [[home-assistant.png]]
+
+15253a68f389006898206b37a1663e44b90d1a22: [[adguard-home.png]]
+
+
+
+</div></div>
+
 
 ## The Repo
 

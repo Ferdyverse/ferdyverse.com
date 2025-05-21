@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/linux-tipps","permalink":"/how-to/linux-tipps/","tags":["notes/fern"],"noteIcon":"fern","created":"2024-10-07 09:46","updated":"2025-01-07 15:23"}
+{"dg-publish":true,"dg-path":"HowTo/linux-tipps","permalink":"/how-to/linux-tipps/","tags":["notes/fern"],"noteIcon":"fern","created":"2024-10-07 09:46","updated":"2025-05-21 19:01"}
 ---
 
 Additional Files:
@@ -153,6 +153,7 @@ runuser -u <user> -- <COMMAND>
 
 # Example usecase
 runuser -u alloy -- ./alloy --config-file test.alloy
+runuser -u git -- /usr/bin/forgejo 
 ```
 
 ## Git client functions
