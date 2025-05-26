@@ -143,7 +143,11 @@ echo "New .env file generated with secure random values!"
 ## Use `.env`-file in local terminal
 Sometimes it is required to run commands that are based on environment vars. To include them into your current session you can use the following snippet:
 ```bash
+# export .env to current shell
 export $(echo $(cat .env | sed 's/#.*//g') | xargs | envsubst)
+
+# unset .env
+unset $(echo $(awk -F= '{ print $1 }' .env))
 ```
 
 ## Runuser

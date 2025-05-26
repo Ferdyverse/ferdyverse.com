@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["notes/fern"],"noteIcon":"fern","updated":"2025-05-21 22:46"}
+{"dg-publish":true,"dg-path":"Notes/homelab","permalink":"/notes/homelab/","tags":["notes/fern"],"noteIcon":"fern","created":"2025-05-06 20:12","updated":"2025-05-21 22:46"}
 ---
 
 ## Basics
