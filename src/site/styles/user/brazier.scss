@@ -37,3 +37,8 @@ body > main > pre {
 a.external-link:any-link:has(code) {
   text-decoration-line: none;
 }
+
+:is(.markdown-preview-view,.markdown-rendered),
+.markdown-source-view {
+  background-color: var(--background-primary) !important;
+}
