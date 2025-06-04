@@ -43,6 +43,9 @@ a.external-link:any-link:has(code) {
   background-color: var(--background-primary) !important;
 }
 
-.cm-s-obsidian .table-wrapper table {
+/* Fix table position to the left */
+.table-wrapper {
+  table {
     margin: 20px !important;
+  }
 }
