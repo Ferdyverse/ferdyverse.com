@@ -8,6 +8,7 @@ Maintaining a HomeLab can be a rewarding, but time‑consuming hobby - especiall
 
 Here is a image that should explain the basic setup for my HomeLab:
 ![Network View.png](/img/user/Media/Network%20View.png)
+I recently switched from a basic port forwarding solution to pangolin as my self hosted tunnel/proxy provider.
 ## The Repo
 
 You can browse the entire setup here -> [Ferdyverse/HomeLab on Github](https://github.com/Ferdyverse/HomeLab) 
