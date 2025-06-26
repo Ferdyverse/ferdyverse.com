@@ -16,10 +16,10 @@ This is a great question you have. If you want to find out more about me, take a
 
 ---
 ### Recent changes
+- [[Z/Matebook Arch\|Matebook Arch]]
 - [[Z/HomeLab Setup\|HomeLab Setup]]
 - [[Z/Linux Tipps - Useful commands\|Linux Tipps - Useful commands]]
 - [[Z/Obsidian Plugins\|Obsidian Plugins]]
 - [[Z/Private Tonie-Box (version 3200) with teddyCloud\|Private Tonie-Box (version 3200) with teddyCloud]]
-- [[Z/Obsidian CSS-Snippets\|Obsidian CSS-Snippets]]
 
 { .block-language-dataview}
