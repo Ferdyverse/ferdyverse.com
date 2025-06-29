@@ -1,10 +1,6 @@
 ---
-{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["notes/fern"],"dgShowToc":true,"noteIcon":"fern","created":"2024-05-11 09:52","updated":"2024-07-09 11:08"}
+{"dg-publish":true,"dg-path":"HowTo/docker-tipps","permalink":"/how-to/docker-tipps/","tags":["notes/incubator"],"dgShowToc":true,"noteIcon":"incubator","created":"2024-05-11 09:52","updated":"2025-06-29 21:52"}
 ---
-
-
-> [!warning] Current state
-> I just started this page. It will be updated soon.
 
 ## Container lifecycle
 - [`docker create`](https://docs.docker.com/engine/reference/commandline/create) creates a container but does not start it.
